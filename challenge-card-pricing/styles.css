@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+}
+
+:root {
+  --marino: #0c0c47;
+}
+
+/* .prueba {
+  width: 650px;
+  height: 350px;
+  box-shadow: 0 0 25px #fff;
+  backdrop-filter: blur(3px);
+  border: #fff solid 0px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(209, 209, 209);
+  /* text-shadow: #ddd7d7 2px 6px 13px; 
+  font-weight: 600;
+} */
+
+body {
+  display: flex;
+  /* background-image: url(./img/viejo-bosque.jpg); */
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: #777 1px 4px 10px;
+  gap: 10px;
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  /* border: #0c0c47 solid 1px; */
+  height: 430px;
+  width: 280px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.promo {
+  font-size: 30px;
+  color: var(--marino);
+  font-weight: 900;
+}
+
+.simbol {
+  font-size: 30px;
+  color: var(--marino);
+  font-weight: 900;
+}
+
+.simbol span {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.value {
+  font-size: 40px;
+  color: var(--marino);
+  font-weight: 900;
+  display: inline;
+}
+
+.promo-description {
+  font-size: 15px;
+  max-width: 150px;
+  color: var(--marino);
+}
+.sugerencia {
+  font-size: 18px;
+  max-width: 230px;
+  color: var(--marino);
+}
+
+.button {
+  display: flex;
+  width: 150px;
+  height: 60px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.free {
+  background: #da529c;
+}
+
+.standard {
+  background: #19e4da;
+}
+
+.premium {
+  color: white;
+  background: #000000;
+}
+
+.message {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+
+  animation: typing 1.5s steps(23), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
